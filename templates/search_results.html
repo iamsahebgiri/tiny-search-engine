@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+</head>
+<body>
+    <h1>Search Results</h1>
+    <ul>
+        {% for result in results %}
+        <li><a href="view/{{ result.path }}">{{ result.path }}</a> - Score: {{ result.score }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

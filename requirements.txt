@@ -1,0 +1,4 @@
+Flask
+markdown
+pymdown-extensions
+scikit-learn
